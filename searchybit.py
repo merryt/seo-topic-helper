@@ -5,6 +5,7 @@ import time
 import os
 import string
 
+
 recomendations = []
 def top_five_suggestions(results):
     for recomendation in results:
@@ -25,8 +26,11 @@ for letter in string.ascii_lowercase[:3]:
     results = results_box.find_elements_by_tag_name("span")
     top_five_suggestions(results)
 
+# recomendations = ['how to be a digital nomad web developer', 'how to be a digital nomad web developer', 'certification', 'cover letter', 'career', 'course', 'certificate']
+
+
 
 print(recomendations)
 
 
-driver.quit()
+# driver.quit()
